@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -35,9 +35,7 @@
 
         .square {
             width: 400px;
-                /* Increased width */
             height: 400px;
-                /* Increased height */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -97,15 +95,6 @@
                 <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" class="form-control" name="password" id="password" required>
-                </div>
-                <div class="form-group">
-                    <label for="role">Role</label>
-                    <select class="form-control" name="role" id="role" required>
-                        <option value="">-- Select Role --</option>
-                        <option value="Healthworker">Healthworker</option>
-                        <option value="Nurse">Nurse</option>
-                        <option value="Doctor">Doctor</option>
-                    </select>
                 </div>
                 <button type="submit" class="btn-login">Login</button>
             </form>
